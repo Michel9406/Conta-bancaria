@@ -1,15 +1,19 @@
-package conta.model;
+package conta;
 
+import conta.util.cores;
 import java.util.Scanner;
 
 public class Menu {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
+		
 		int opc;
 
 		while (true) {
 			
+			System.out.println(cores.TEXT_YELLOW + cores.ANSI_BLACK_BACKGROUND
+		+	"***********************************************************************************************");
 		
 			System.out.println("****************************************************************************");
 			System.out.println("                                                                            ");
