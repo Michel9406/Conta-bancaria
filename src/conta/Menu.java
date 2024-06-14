@@ -1,23 +1,30 @@
 package conta;
-
+import conta.model.Conta;
 import conta.util.cores;
 import java.util.Scanner;
 
 public class Menu {
 
 	public static void main(String[] args) {
-		Scanner ler = new Scanner(System.in);
 		
+		Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.0f);
+		c1.visualizar();
+		c1.sacar(1200.0f);
+		c1.visualizar();
+		c1.depositar(500.0f);
+		c1.visualizar();
+		Scanner ler = new Scanner(System.in);
+
 		int opc;
 
 		while (true) {
-			
-			System.out.println(cores.TEXT_YELLOW + cores.ANSI_BLACK_BACKGROUND
-		+	"***********************************************************************************************");
-		
+
+			System.out.println(cores.TEXT_RED + cores.ANSI_BLACK_BACKGROUND
+           + "****************************************************************************");
+
 			System.out.println("****************************************************************************");
 			System.out.println("                                                                            ");
-			System.out.println("                          BANCO M7 BRASIL                                ");
+			System.out.println("                          BANCO M7 BRASIL                                   ");
 			System.out.println("****************************************************************************");
 			System.out.println("                                                                            ");
 			System.out.println("                       1 - Criar Conta                                      ");
