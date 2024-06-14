@@ -1,6 +1,6 @@
 package conta;
 import conta.model.Conta;
-import conta.util.cores;
+import conta.util.Cores;
 import java.util.Scanner;
 
 public class Menu {
@@ -19,7 +19,7 @@ public class Menu {
 
 		while (true) {
 
-			System.out.println(cores.TEXT_RED + cores.ANSI_BLACK_BACKGROUND
+			System.out.println(Cores.TEXT_RED + Cores.ANSI_BLACK_BACKGROUND
            + "****************************************************************************");
 
 			System.out.println("****************************************************************************");
