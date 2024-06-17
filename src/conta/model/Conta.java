@@ -1,4 +1,6 @@
 	package conta.model;
+	import conta.model.Conta;
+	import conta.util.Cores;
 
 	public class Conta {
 	  
