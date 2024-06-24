@@ -1,6 +1,7 @@
 package conta.repository;
 
-import conta.model.Conta; 
+import conta.model.Conta;
+
 public interface ContaRepository {
 	
 	public void proucurarPorNumero(int numero);
