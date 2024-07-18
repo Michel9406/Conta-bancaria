@@ -16,6 +16,11 @@ Este projeto tem como objetivo fornecer uma aplicação simples para gerenciar c
 
 ## 🛠️ Tecnologias Utilizadas
 
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java," />
+  </a> 
+
+  
 - **Java:** Linguagem de programação principal utilizada no projeto.
 - **JUnit:** Framework para testes unitários.
 - **Maven:** Ferramenta de automação de compilação e gerenciamento de dependências.
